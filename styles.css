@@ -9,26 +9,26 @@
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f5e9; /* Light green background */
-    color: #333;
+    background-color: #d47b7b; /* Light green background */
+    color: #fefefe;
 }
 
 /* Header styles */
 header {
-    background-color: #5e8745; /* Dark green header background */
-    color: #fff;
+    background-color: #c65454; /* Dark green header background */
+    color: #ffffff;
     padding: 20px;
     width: 100%;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3.4rem;
     margin-bottom: 10px;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 /* Navigation styles */
@@ -40,19 +40,19 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: whitesmoke; /* Dark green for navigation links */
+    color: rgb(255, 255, 255); /* Dark green for navigation links */
     font-weight: bold;
     font-size: 1.2rem;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #8cbf6b; /* Light green on hover */
+    color: #df2929; /* Light green on hover */
 }
 
 /* Section styles */
 section {
-    background-color: #fff;
+    background-color: #dc3333;
     padding: 40px;
     margin: 20px;
     border-radius: 8px;
@@ -62,7 +62,7 @@ section {
 section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #5e8745; /* Dark green for section headings */
+    color: #ffffff; /* Dark green for section headings */
 }
 
 /* Education styles */
@@ -74,7 +74,7 @@ section#education p {
 /* Experience styles */
 .experience-entry h3 {
     font-size: 1.4rem;
-    color: #5e8745; /* Dark green for experience headings */
+    color: #ffffff; /* Dark green for experience headings */
 }
 
 .experience-entry ul {
@@ -91,14 +91,14 @@ section#skills ul {
 
 section#skills li {
     font-size: 1.2rem;
-    color: #5e8745; /* Dark green for skill text */
+    color: #ffffff; /* Dark green for skill text */
     margin-bottom: 10px;
 }
 
 /* Activities styles */
 .activity-entry h3 {
     font-size: 1.4rem;
-    color: #5e8745; /* Dark green for activity titles */
+    color: #ffffff; /* Dark green for activity titles */
 }
 
 /* Footer styles */
@@ -115,7 +115,7 @@ footer {
 nav ul.active {
     display: block;
     position: absolute;
-    background-color: #333;
+    background-color: #242323;
     width: 100%;
     top: 60px;
     left: 0;
@@ -141,7 +141,7 @@ nav ul.active li {
 
 /* CSS for animations */
 .button {
-    background-color: #333;
+    background-color: #fa0000;
     color: #fff;
     padding: 10px 20px;
     border: none;
