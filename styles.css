@@ -9,7 +9,7 @@
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #d47b7b; /* Light green background */
+    background-color: #ffffff; /* Light green background */
     color: #fefefe;
 }
 
@@ -47,12 +47,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #df2929; /* Light green on hover */
+    color: #d24747; /* Light green on hover */
 }
 
 /* Section styles */
 section {
-    background-color: #dc3333;
+    background-color: #d65757;
     padding: 40px;
     margin: 20px;
     border-radius: 8px;
@@ -141,8 +141,8 @@ nav ul.active li {
 
 /* CSS for animations */
 .button {
-    background-color: #fa0000;
-    color: #fff;
+    background-color: #db4242;
+    color: #b4b0b0;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -150,6 +150,14 @@ nav ul.active li {
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #c7c1c1;
     transform: scale(1.05);
 }
+ 
+.centreimg {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+}
+   
